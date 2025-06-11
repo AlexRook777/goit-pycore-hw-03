@@ -3,7 +3,7 @@ from datetime import datetime
 import re
 
 def replace_delimiters_with_dashes(data_string: str) -> str:
-    """
+    """ 
     Replace all delimiters in the input string with dashes.
     Delimiters include spaces, tabs, newlines, and commas.
     Removes any leading or trailing dashes from the final string for a cleaner result.
