@@ -18,7 +18,8 @@ def get_numbers_ticket(min=1, max=49, quantity = 6):
     return sorted(ticket) 
 
 # Example usage
-if __name__ == "__main__":
+if __name__ == "__main__": # to allow import without executing the code
+    # Generate a lottery ticket with default parameters
     ticket = get_numbers_ticket()
     print(f"Generated lottery ticket: {ticket}")
     
