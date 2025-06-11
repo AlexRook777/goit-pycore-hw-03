@@ -1,6 +1,6 @@
 # Task 2: Create a function that generates a lottery ticket with unique random numbers.
 from random import random
-
+ 
 # Function to generate a lottery ticket with unique random numbers
 def get_numbers_ticket(min=1, max=49, quantity = 6):     
     # Using a set to ensure uniqueness

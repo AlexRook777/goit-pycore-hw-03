@@ -1,7 +1,7 @@
 # Task 3: Normalize phone numbers for SMS distribution
 
 import re
-
+ 
 # Function to normalize phone numbers
 def normalize_phone(phone_number: str) -> str:
 

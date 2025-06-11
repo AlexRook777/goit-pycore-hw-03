@@ -1,6 +1,6 @@
 #Task 1: Calculate the number of days from today to a given date
 from datetime import datetime
-
+ 
 # Function to calculate the number of days from today to a given date
 def get_days_from_today(date, date_format="%Y-%m-%d"):
     try:
