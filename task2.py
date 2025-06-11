@@ -21,8 +21,8 @@ def get_numbers_ticket(min=1, max=49, quantity = 6):
 if __name__ == "__main__": # to allow import without executing the code
     # Generate a lottery ticket with default parameters
     ticket = get_numbers_ticket()
-    print(f"Generated lottery ticket: {ticket}")
+    print(f"Generated lottery ticket 6 from 49: {ticket}")
     
     # Example with custom parameters
     custom_ticket = get_numbers_ticket(min=1, max=36, quantity=5)
-    print(f"Custom lottery ticket: {custom_ticket}")
+    print(f"Generated lottery ticket 5 from 36: {custom_ticket}")
